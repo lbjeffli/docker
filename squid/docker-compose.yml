@@ -1,0 +1,10 @@
+squid:
+  image: sameersbn/squid:3.3.8-19
+  restart: always
+  container_name: squid
+  ports:
+    - 3128:3128
+  volumes:
+    - /var/lib/docker-data/squid/cache:/var/spool/squid3
+    - /var/lib/docker-data/squid/config:/etc/squid3
+  

@@ -1,2 +1,3 @@
-# docker
-docker
+# Docker
+Docker related stuff
+## Squid
